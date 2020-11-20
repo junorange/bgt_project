@@ -130,9 +130,10 @@
                     <TextBlock x:Name="징후2" Grid.Column="2" Grid.Row="7" Text="징후" HorizontalAlignment="Center" Foreground="Black" FontSize="15" Margin="5"/>
                     <TextBlock x:Name="점수2" Grid.Column="3" Grid.Row="7" Text="점수" HorizontalAlignment="Center" Foreground="Black" FontSize="15" Margin="5"/>
                     <Button x:Name="배열순서" Content="배열순서" Grid.Column="0" Grid.Row="8" HorizontalAlignment="Center" Foreground="Black" FontSize="15" Margin="5"/>
-                    <Button x:Name="도형A의위치" Content="도형A의 위치" Grid.Column="0" Grid.Row="9" HorizontalAlignment="Center" Foreground="Black" FontSize="12" Margin="5"/>
+                    <Button x:Name="도형A의위치" Content="도형A의 위치" Grid.Column="0" Grid.Row="9" HorizontalAlignment="Center" Foreground="Black" FontSize="12" Margin="5" Click="Bt_PA"/>
+                    <TextBlock x:Name="PA" Grid.Column="1" Grid.Row="9" Text="" FontSize="15" Foreground="Black" HorizontalAlignment="Center" Margin="10"/>
                     
-                    <Button x:Name="공간사용" Content="공간사용" Grid.Column="0" Grid.Row="10" HorizontalAlignment="Center" Foreground="Black" FontSize="15" Margin="5"/>
+                    <Button x:Name="공간사용" Content="공간사용" Grid.Column="0" Grid.Row="10" HorizontalAlignment="Center" Foreground="Black" FontSize="15" Margin="5" Click="Bt_RR"/>
                     <TextBlock x:Name="US" Grid.Column="1" Grid.Row="10" Text="" FontSize="15" Foreground="Black" HorizontalAlignment="Center" Margin="10"/>
                     
                     <Button x:Name="중첩" Content="중첩" Grid.Column="0" Grid.Row="11" HorizontalAlignment="Center" Foreground="Black" FontSize="15" Margin="5" Click="Bt_RR"/>
