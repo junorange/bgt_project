@@ -27,11 +27,18 @@ public class Figure
     //교차곤란
     private float standardDeviation = 0;
     private float variance = 0.0f;
+    private List<float> partpoints = new List<float>();
 
     //단순화
     private IReadOnlyList<InkStroke> strokes;
     public bool is_simplification;
     public bool is_retrograde = false;
+
+    //퇴영
+    public bool is_retrograde = false;
+
+
+
 
     public string Name
     {
@@ -70,6 +77,11 @@ public class Figure
     {
         get { return strokes; }
         set { strokes = value; }
+    }
+    public List<float> PartPoints
+    {
+        get { return partpoints; }
+        set { partpoints = value; }
     }
 
     public Point Start

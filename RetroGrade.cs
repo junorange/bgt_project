@@ -135,7 +135,7 @@ namespace BGTviewer
                 if ((arraypt.X - Math.Truncate(pt.X) > 10 || Math.Truncate(pt.X) - arraypt.X > 10) && (arraypt.Y - Math.Truncate(pt.Y) > 10 || Math.Truncate(pt.Y) - arraypt.Y > 10))
                 {
                     if (x_max - x_min > margin || y_max - y_min > margin) result = true;
-                    Debug.WriteLine("i번째 fig "+i+" xmax " + x_max + " xmin " + x_min + " ymax " + y_max + " ymin " + y_min);
+                    Debug.WriteLine("i번째 fig " + i + " xmax " + x_max + " xmin " + x_min + " ymax " + y_max + " ymin " + y_min);
 
                     x_max = 0.0; x_min = 1000.0; y_max = 0.0; y_min = 1000.0;
                 }
@@ -161,7 +161,7 @@ namespace BGTviewer
                 if (f[i].is_retrograde == true)
                 {
                     count++;
-                    
+
                     Debug.WriteLine("도형" + i + " 퇴영");
                 }
             }
@@ -177,4 +177,3 @@ namespace BGTviewer
         }
     }
 }
-

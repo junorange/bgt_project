@@ -46,7 +46,7 @@ namespace BGTviewer
             {   //비정상적 위치
                 psv = 10.0f;
             }
-            else if (fA.End.Y <= rect.Top + rect.Height/3)
+            else if (fA.End.Y <= rect.Top + rect.Height / 3)
             {   //정상적 위치
                 psv = 1.0f;
             }
@@ -55,5 +55,4 @@ namespace BGTviewer
         }
     }
 }
-
 
