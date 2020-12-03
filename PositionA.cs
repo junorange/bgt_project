@@ -40,7 +40,7 @@ namespace BGTviewer
                 psv = 5.0f;
             }
             else if ((rect.Right - inch) <= fA.Start.X && fA.End.X <= (rect.Right) ||
-                (rect.Left <= fA.Center.X) && (fA.End.X <= rect.Left + inch) ||
+                (rect.Left <= fA.Start.X) && (fA.End.X <= rect.Left + inch) ||
                 (rect.Top - inch) <= fA.End.Y && fA.Start.Y <= (rect.Top) ||
                 (rect.Bottom <= fA.End.Y) && (fA.Start.Y <= rect.Bottom + inch))
             {   //비정상적 위치

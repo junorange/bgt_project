@@ -149,7 +149,8 @@ namespace BGTviewer
 
         private void GetResult()
         {
-            PositionA positionA = new PositionA();
+            PositionA positionA = new PositionA(); //도형 A 위치
+            RetroGrade retrograde = new RetroGrade(); //퇴영 
             Crossing crossing = new Crossing();//교차 곤란
             UseSpace useSpace = new UseSpace();//공간의 사용
             Simplification simple = new Simplification();//단순화
@@ -158,6 +159,9 @@ namespace BGTviewer
 
             positionA.checkPositionA(drawingRect, figure[0]);
             PA.Text = positionA.PSV.ToString();
+
+            retrograde.retrograde(figure);
+            RG.Text = retrograde.PSV.ToString();
 
             crossing.checkCrossing(figure[6], figure[7]);
             resultCrossing.Text = crossing.PSV.ToString();
@@ -181,6 +185,14 @@ namespace BGTviewer
             pa.checkPositionA(drawingRect, figure[0]);
 
             PA.Text = pa.PSV.ToString();
+        }
+
+        public void Bt_RG(object sender, RoutedEventArgs e)/////////////////////도형A의 위치
+        {
+            RetroGrade rg = new RetroGrade();
+            rg.retrograde(figure);
+
+            RG.Text = rg.PSV.ToString();
         }
 
         public void Bt_RR(object sender, RoutedEventArgs e)/////////////////////중첩

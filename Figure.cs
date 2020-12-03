@@ -31,6 +31,7 @@ public class Figure
     //단순화
     private IReadOnlyList<InkStroke> strokes;
     public bool is_simplification;
+    public bool is_retrograde = false;
 
     public string Name
     {

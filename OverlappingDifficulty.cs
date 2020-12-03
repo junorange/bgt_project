@@ -84,7 +84,7 @@ class OverlappingDifficulty
         {
             if (firstX == hit_element.X)
             {
-                if (firstY + 10 < hit_element.Y || firstY - 10 > hit_element.Y)
+                if (firstY + 10 > hit_element.Y || firstY - 10 < hit_element.Y)
                 {
                     firstY = (int)hit_element.Y;
                     checknum = checknum + 1;
@@ -113,7 +113,7 @@ class OverlappingDifficulty
         {
             if (firstY == hit_element.Y)
             {
-                if (firstX + 10 < hit_element.X || firstX - 10 > hit_element.X)
+                if (firstX + 10 > hit_element.X || firstX - 10 < hit_element.X)
                 {
                     firstX = (int)hit_element.X;
                     checknum = checknum + 1;
@@ -140,7 +140,7 @@ class OverlappingDifficulty
             if (min_x > total) min_x = total;
             //Debug.WriteLine("total=> x: " + total);
         }
-        //Debug.WriteLine("max = " + max_x + "min= " + min_x);
+        Debug.WriteLine("max = " + max_x + "min= " + min_x);
 
         foreach (var total in total_y)
         {
@@ -148,12 +148,13 @@ class OverlappingDifficulty
             if (min_y > total) min_y = total;
             //Debug.WriteLine("total=> y: " + total);
         }
-        //Debug.WriteLine("max = " + max_y + "min= " + min_y);
+        Debug.WriteLine("max = " + max_y + "min= " + min_y);
 
         if (min_x != 0 && max_x >= 4)
         {
             if (min_y != 0 && min_y >= 4)
             {
+                Debug.WriteLine("true");
                 result = true;
             }
         }

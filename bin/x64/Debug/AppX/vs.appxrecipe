@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\BGTProject\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-19T21:44:07.480</Modified>
+      <Modified>2020-11-20T11:15:48.989</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\BGTProject\bin\x64\Debug\BGTviewer.exe">
       <PackagePath>entrypoint\BGTviewer.exe</PackagePath>
-      <Modified>2020-11-19T21:44:06.077</Modified>
+      <Modified>2020-11-20T11:15:46.336</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -370,11 +370,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BGTProject\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-11-19T21:44:05.488</Modified>
+      <Modified>2020-11-20T11:15:45.174</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BGTProject\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-11-19T21:44:05.488</Modified>
+      <Modified>2020-11-20T11:15:45.174</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -382,11 +382,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BGTProject\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-11-19T13:57:10.456</Modified>
+      <Modified>2020-11-20T11:00:06.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\BGTProject\bin\x64\Debug\Core\BGTviewer.exe">
       <PackagePath>BGTviewer.exe</PackagePath>
-      <Modified>2020-11-19T21:44:07.470</Modified>
+      <Modified>2020-11-20T11:15:48.973</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
